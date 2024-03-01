@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<script>
+
+  console.log("Task 1:");
+  var countries = ['Japan', 'Zimbabwe', 'Denmark', 'Ireland', 'India', 'Portugal'];
+  countries.forEach(country => {
+    console.log(country);
+  });
+  console.log("\nCoding Task 2:");
+
+  function calculateNumberToothbrushForLife(age, amountPerMonth) {
+    const maxAge = 75;
+    const totalBrushQuantity = amountPerMonth * 12 * (maxAge - age);
+    console.log(`You will need ${totalBrushQuantity} toothbrushes to last you until the age of ${maxAge}`);
+  };
+
+  calculateNumberToothbrushForLife(12, 4); 
+  calculateNumberToothbrushForLife(24, 2); 
+
+</script>
+</body>
+</html>
